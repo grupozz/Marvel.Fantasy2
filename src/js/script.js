@@ -1,19 +1,3 @@
-const hamburguer = document.querySelector('.hamburguer');
-const headerMenu = document.querySelector('.menu-header');
-
-function toggleMenu() {
-        hamburguer.classList.toggle('active');
-        headerMenu.classList.toggle('active');
-}
-
-hamburguer.addEventListener('click', toggleMenu);
-headerMenu.addEventListener('click', (event) => {
-        if (event.target.classList.contains('item-menu')) {
-                toggleMenu();
-        }
-});
-
-
 
 // Criando um array com as imagens e informações do banner
 const bannerItems = [
@@ -47,7 +31,7 @@ const bannerItems = [
 ];
 
 // Declarando as variaveis e elementos com dom (document object model)
-const tempo = 8000; // tempo em milissegundos
+const tempo = 4000; // tempo em milissegundos
 const elementoBanner = document.querySelector(".banner");
 const elementoTitulo = document.querySelector(".banner-titulo");
 // const elementoDescricao=document.querySelector(".banner-descricao");

@@ -27,8 +27,8 @@ body {
 
 .logo {
     position: absolute;
-    top: 70%;
-    left: 20px;
+    top: 80px;
+    left: -30px;
     transform: translateY(-50%);
     height: 100px;
 
@@ -36,7 +36,7 @@ body {
 
 header {
     background-color: var(--roxomedio);
-    height: 120px;
+    height: 180px;
     color: var(--branquinho);
     padding: 20px;
     justify-content: space-around;
@@ -56,11 +56,9 @@ header h1 {
 
 .menu-header {
     list-style: none;
-
     display: flex;
     gap: 5rem;
     justify-content: center;
-
 }
 
 .item-menu {
@@ -73,7 +71,6 @@ header h1 {
     text-transform: uppercase;
     position: relative;
     display: inline-block;
-
 }
 
 .item-menu::after {
@@ -125,38 +122,10 @@ menu-header a:hover {
 }
 
 
-/* MENU HAMBURGUER */
-
-.hamburguer {
-    margin-right: -15px;
-    cursor: pointer;
-    position: relative;
-    z-index: 999;
-    display: none;
-    flex-direction: column;
-}
-
-.barra {
-    display: block;
-    width: 3rem;
-    height: .3rem;
-    background-color: var(--roxoclaro);
-    margin: .5rem auto;
-    border-radius: 10px;
-    transition: .5s;
-    margin-right: 10px;
-    position: relative;
-    top: -64px;
-    right: 20px;
-    padding: 0.5px;
-}
-
-
 #produtos {
     font-family: Questrial;
     display: grid;
     justify-content: center;
-    margin-left: 150px;
 }
 
 #produtos img {
@@ -192,7 +161,6 @@ menu-header a:hover {
 }
 
 article p {
-
     margin: 8px;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -202,60 +170,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.aside-conteudo {
-    justify-content: center;
-    padding: 10px;
-    margin: 5px;
-}
-
-#pesquisa {
-    height: 24px;
-    width: 150px;
-    margin-bottom: 14px;
-    border: 1px solid #20002e;
-}
-
-#aside-aside {
-    font-family: Questrial;
-    font-weight: 1rem;
-    width: 220px;
-    padding: 10px;
-    background: #e0d2fb;
-    position: absolute;
-    height: 92.1%;
-    height: 86.6%;
-}
-
-#aside-aside h2 {
-
-
-    margin-bottom: 5px;
-    color: var(--roxomedio);
-}
-
-ul {
-
-
-    text-decoration: none;
-    list-style: none;
-}
-
-#bolinha {
-    width: 150px;
-}
-
-
-.filtro ul li {
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
-.filtro ul li a {
-    text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .roupa {
@@ -294,104 +208,4 @@ ul {
 .direitos {
     font-family: Questrial;
     text-align: center;
-}
-
-@media(width <=1024px) {
-    header {
-        height: 60px;
-    }
-
-    .menu-header {
-        width: 100%;
-        height: 100vh;
-        background: var(--gradient2);
-        position: absolute;
-        z-index: 3;
-        top: 0;
-        left: -100%;
-        gap: 6rem;
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-        transition: .5s;
-    }
-
-    header h1 {
-        font-size: 1.4rem;
-        margin-right: 5px;
-    }
-
-    #titulo {
-        margin: 0 auto;
-        font-size: 1.2rem;
-    }
-
-    .logo {
-         margin-top: -15px;
-        margin-left: -16px;
-        width: 56px;
-        height: 56px;
-
-    }
-
-    .active {
-        left: 0;
-    }
-
-    /* MENU HAMBURGUER */
-
-    .hamburguer {
-        display: block;
-        margin-top: 13px;
-
-    }
-
-    /* Primeira linha */
-    .hamburguer.active .barra:first-child {
-        transform: translateY(13px) rotate(360deg) rotate(45deg);
-    }
-
-    /* Segunda linha */
-    .hamburguer.active .barra:nth-child(2) {
-        opacity: 0;
-    }
-
-    /* Terceira linha */
-    .hamburguer.active .barra:last-child {
-        transform: translateY(-13px) rotate(-360deg) rotate(-45deg);
-    }
-
-    aside {
-        display: none;
-    }
-
-
-    #produtos {
-        display: block;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-
-    .footer {
-        width: 100%;
-    }
-
-    .footer-container {
-        text-align: center;
-        width: 100%;
-    }
-
-    .tituf {
-        text-align: center;
-        font-size: 12px;
-        margin-top: 20px;
-    }
-
-    .direitos {
-        font-size: 10px;
-        text-align: center;
-        margin: 10px;
-    }
 }
