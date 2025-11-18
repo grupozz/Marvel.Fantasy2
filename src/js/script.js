@@ -2,26 +2,26 @@
 // Criando um array com as imagens e informações do banner
 const bannerItems = [
         {
-                imagem: "./src/assets/img/banner1.png",
+                imagem: "./src/assets/img/vingadores.jpg",
                
-                titulo: "Coleção Vingadores",
+                titulo: "Fantasias dos Vingadores",
 
         },
         {
-                imagem: "./src/assets/img/banner2.png",
+                imagem: "./src/assets/img/guardioes.jpg",
              
-                titulo: "Coleção Guardiões da Galáxia",
+                titulo: "Fantasias dos Guardiões da Galáxia",
 
 
         },
         {
-                imagem: "./src/assets/img/banner3.png",
+                imagem: "./src/assets/img/ironman.jpg",
              
                 titulo: "Coleção Stark Industries",
 
         },
         {
-                imagem: "./src/assets/img/banner4.png",
+                imagem: "./src/assets/img/aranhaverso.jpg",
               
                 titulo: "Coleção Aranhaverso",
 
