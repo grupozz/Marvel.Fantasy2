@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="/src/assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/fantasias.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+    </style>
+
+    <title>Marvel Fantasy</title>
+</head>
+
+
+<body>
+    <div id="container">
+
+        <header>
+            <div class="topo">
+                <img src="./src/assets/img/logo.png" alt="logo" class="logo">
+                <h1 class="titulo">Marvel Fantasy</h1>
+            </div>
+            <nav>
+                <ul class="menu-header">
+                    <li><a href="index.html" class="item-menu">Home</a></li>
+                    <li><a href="fantasias.html" class="item-menu">Fantasias</a></li>
+                    <li><a href="sobre.html" class="item-menu">Sobre</a></li>
+                    <li><a href="#" id="login">Login</a></li>
+
+                </ul>
+            </nav>
+            <div class="hamburguer">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+            </div>
+        </header>
+    </div>
+
+    <!-- ASIDE -->
+
+    <aside id="aside-aside">
+        <div class="aside-conteudo">
+            <h2>Filtros</h2>
+            <input type="text" id="pesquisa" placeholder="Pesquisar">
+            <div class="filtro">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </div>
+
+            <div class="filtro-task">
+
+                <input type="range" id="bolinha" min="0" max="1000" value="500">
+            </div>
+        </div>
+    </aside>
+
+
+
+    <div id="produtos">
+
+        <main>
+
+            <article class="roupa">
+                <img src="./src/assets/img/viuva.png" alt="viuva-negra">
+                <a href="#" class="nome-prod">Traje Viuva Negra</a>
+
+                <p class="preco">R$ 350,00</p>
+            </article>
+
+            <article class="roupa">
+                <img src="./src/assets/img/aranha.png" alt="homem-aranha">
+                <a href="#" class="nome-prod">Traje Homem Aranha</a>
+                <p class="preco">R$ 340,00</p>
+            </article>
+
+            <article class="roupa">
+                <img src="./src/assets/img/gaviao.png" alt="gaviao-arqueiro">
+                <a href="#" class="nome-prod">Traje Gavião Arqueiro</a>
+                <p class="preco">R$ 300,00</p>
+            </article>
+
+
+            <article class="roupa">
+                <img src="./src/assets/img/wanda.png" alt="wanda">
+                <a href="#" class="nome-prod">Traje Wanda Maximoff</a>
+                <p class="preco">R$ 340,00</p>
+            </article>
+
+            <article class="roupa">
+                <img src="./src/assets/img/capitao.png" alt="capitao-america">
+                <a href="#" class="nome-prod">Traje Capitão América</a>
+                <p class="preco">R$ 330,00</p>
+            </article>
+
+            <article class="roupa">
+                <img src="./src/assets/img/thor.png" alt="thor">
+                <a href="#" class="nome-prod">Traje Thor</a>
+                <p class="preco">R$ 300,00</p>
+            </article>
+
+        </main>
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <h2 class="tituf">Marvel Fantasy</h2>
+
+            <div class="direitos">
+                <p>&copy; 2025 - todos os direitos reservados</p>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/js/fantasias.js"></script>
+</body>

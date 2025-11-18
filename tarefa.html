@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/estilo.css">
+  <title>Lista Tarefas</title>
+<head>
+
+<body>
+  <h1>LISTA DE TAREFAS</h1>
+  <p>
+    <label for="task">TAREFA:</label>
+    <input type="text" id="task" size="25px">
+  </p>
+  <div>
+    <button id="btnAdicionar" onclick="adcionaTarefa()">Adicionar Tarefa</button>
+    <button id="btnRemover" onclick="removeTarefa()">Remover Tarefa</button>
+  </div>
+
+
+  <p id="lista"></p>
+
+
+
+  <script src="./src/js/tarefa.js"></script>
+</body>
+
+</html>
