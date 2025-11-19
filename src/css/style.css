@@ -53,9 +53,9 @@ header h1 {
 
 .menu-header {
    list-style: none;
-
+   text-wrap: wrap;
    display: flex;
-   gap: 5rem;
+   gap: 10%;
    justify-content: center;
 
 }
@@ -196,4 +196,13 @@ a:hover {
    font-family: Questrial;
    text-align: center;
 
+}
+
+@media (width < 910px){
+   .logo{
+      display: none;
+   }
+   .menu-header{
+      font-size: 1rem;
+   }
 }

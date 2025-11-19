@@ -55,10 +55,12 @@ header h1 {
 }
 
 .menu-header {
-    list-style: none;
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
+   list-style: none;
+   text-wrap: wrap;
+   display: flex;
+   gap: 10%;
+   justify-content: center;
+
 }
 
 .item-menu {
@@ -208,4 +210,13 @@ main {
 .direitos {
     font-family: Questrial;
     text-align: center;
+}
+
+@media (width < 910px){
+   .logo{
+      display: none;
+   }
+   .menu-header{
+      font-size: 1rem;
+   }
 }
